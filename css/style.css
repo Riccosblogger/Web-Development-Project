@@ -1,0 +1,477 @@
+@import "fonts.css";
+
+html {
+    background: gray;
+    font-family: 'Open Sans';
+}
+
+ul, li {
+    display: block;
+    padding: 0;
+    margin: 0;
+}
+
+.menu-bar {
+    color: #212121;
+    padding: 20px 0;
+    background: #fff;
+}
+
+.menu__item {
+    margin-left: 37px;
+}
+
+.menu__item a {
+    /*font-family: 'Open Sans';*/
+    font-weight: normal;
+    font-size: 20px;
+    color: #212121;
+}
+
+.menu__item a:hover {
+    text-decoration: none;
+    color: #96a09c;
+}
+
+/*ШАПКА*/
+
+.header {
+    color: #fff;
+    background-size: cover;
+    background-position: 0 100%;
+    text-align: center;
+    padding: 180px 0;
+    background-image: url(../img/header.png);
+}
+
+.header__title {
+    font-size: 55px;
+
+}
+
+.header__text {
+    font-size: 20px;
+    margin-bottom: 100px;
+}
+
+.button {
+    padding: 10px 25px;
+    margin: 0 10px;
+    color: white;
+    transition: 0.3s;
+    background: #00897b;
+    border: 2px solid #00897b;
+    cursor: pointer;
+}
+
+.button:hover {
+    background: transparent;
+    border: 2px solid white;
+}
+
+.about {
+    background: #fff;
+    text-align: center;
+    padding-top: 125px;
+    padding-bottom: 110px;
+}
+
+.about__title {
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 50px;
+}
+.about__text {
+    font-size: 20px;
+    margin-bottom: 50px;
+}
+
+.about_h4 {
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+/* Our Services */
+
+.services {
+    text-align: center;
+    background-color: #e4fdf9;
+    padding-top: 175px;
+    padding-bottom: 100px;
+}
+
+.icon {
+    font-size: 62px;
+    color: #000;
+    transition: 0.3s;
+    margin-bottom: 40px;
+}
+
+.our_card {
+    background-color: #fff;
+    padding: 60px 50px 50px;
+    transition: 0.3s;
+    margin-bottom: 30px;
+}
+
+.button-services {
+    font-family: Open Sans Semibold;
+    border: 1px solid black;
+    background: transparent;
+    padding: 10px 12px 10px;
+    color: black;
+    transition: 0.3s;
+}
+
+.our_card:hover {
+    background: #00897b;
+    color: white;
+    box-shadow: 0px 10px 12px -3px rgba(0, 0, 0, 0.26);
+}
+
+.our_card:hover .icon{
+    color: white;
+}
+
+.our_card:hover .button-services {
+    border: 1px solid white;
+    color: white;
+}
+
+.works {
+    background-color: white;
+}
+
+.works .button {
+margin-bottom: 120px;
+}
+
+.works .button:hover,
+.focused {
+    border: 2px solid #00897b;
+    color: black;
+    background-color: transparent;
+}
+
+.works img {
+    /*padding-left: 15px;*/
+    margin-bottom: 30px;
+    /*margin-left: 15px;*/
+}
+
+.view_all {
+    padding-top: 115px;
+}
+
+div[filter]:hover img{
+    filter: brightness(40%);
+    transition: 0.3s;
+}
+
+.text {
+   display: none;
+}
+
+div[filter]:hover .text{
+    display: block;
+    position: absolute;
+    width: 100%;
+    left: 0;
+    top: 40%;
+    color: white;
+    text-align: center;
+}
+
+.pricing {
+    text-align: center;
+    background-color: #f0f1f1;
+    padding-top: 175px;
+    padding-bottom: 100px;
+}
+
+
+.price {
+    background: white;
+    transition: 0.3s;
+}
+
+.price:hover {
+    box-shadow: 0px 0px 11px 3px rgba(0, 0, 0, 0.4);
+}
+
+.price__head {
+    padding-top: 40px;
+    padding-bottom: 65px;
+    background-image: url(../img/pricing_bg.png);
+    background-size: cover;
+    max-height: 209px;
+    color: white;
+    font-size: 50px;
+}
+
+.price__head p {
+    font-size: 25px;
+}
+
+.price__head sub {
+    font-size: 17px;
+    vertical-align: middle;
+}
+
+.price__head sup {
+    font-size: 25px;
+    vertical-align: middle;
+}
+
+.price__body {
+    font-size: 17px;
+    color: #212121;
+}
+
+.price__body ul {
+    margin: 0;
+}
+
+.price__body li {
+    padding-top: 28px;
+    padding-bottom: 12px;
+    font-size: 17px;
+    margin: 0 auto;
+    max-width: 175px;
+    border-bottom: 1px solid #bfbfbf;
+}
+
+.price__footer {
+    padding: 60px 0;
+}
+
+.price__footer button {
+    cursor: pointer;
+    font-size: 20px;
+    color: #212121;
+    border: 2px solid #212121;
+    background: transparent;
+    /*padding: 20px 30px;*/
+    width: 180px;
+    height: 60px;
+    transition: 0.3s;
+}
+
+.price__footer button:hover {
+    text-transform: uppercase;
+    color: white;
+    background-color: #00897b;
+    border: 0;
+}
+
+.team {
+    text-align: center;
+    background-color: white;
+    padding-top: 175px;
+    padding-bottom: 100px;
+}
+
+.team img {
+    margin: 0 auto;
+    max-width: 340px;
+}
+
+.team h4 {
+    font-size: 20px;
+    margin-top: 30px;
+    font-family: 'Open Sans Semibold';
+}
+
+.team p[class!="about__text"] {
+    font-size: 15px;
+    margin-bottom: 30px;
+    font-family: 'Open Sans Semibold';
+}
+
+.icons {
+    display: flex;
+    justify-content: center;
+}
+
+.icons a i {
+    transition: 0.3s;
+}
+
+.icons  i:nth-child(1) {
+    color: #f0f1f1;
+}
+.icons  i:nth-child(2) {
+    color: #00897b;
+}
+
+.icons a:hover i:nth-child(1) {
+    color: #3949ab;
+}
+
+.icons a:hover i:nth-child(2) {
+    color: #fff;
+}
+
+.multiple-items {
+    margin-top: 125px;
+}
+
+.dots-style {
+    margin-top: 115px;
+    display: flex;
+    justify-content: center;
+}
+
+.dots-style button {
+    background: #00897b;
+    border: none;
+    border-radius: 50%;
+    font-size: 0;
+    height: 15px;
+    width: 15px;
+    margin: 5px;
+}
+
+.dots-style li[class="slick-active"] button {
+    background: #3949ab;
+}
+
+.blog {
+    text-align: center;
+    background-color: #e4fdf9;
+    padding-top: 175px;
+    padding-bottom: 100px;
+    font-size: 15px;
+}
+
+.blog a {
+    cursor: pointer;
+}
+
+.blog a h3 {
+    color: #00897B;
+    font-size: 25px;
+    margin-top: 62px;
+    margin-bottom: 30px;
+}
+
+.blog-text {
+    text-align: left;
+    margin-left: 20px;
+
+}
+
+.blog button:hover {
+border: 2px solid #00897b;
+color: black;
+}
+
+.blog-text i {
+margin-right: 10px;
+}
+
+.blog-text span {
+margin-right: 40px;
+font-size: 17px;
+//font-family: Open Sans Bold;
+
+}
+
+.blog-text div {
+margin-bottom: 28px;
+}
+
+.left, .right {
+margin: 0 -40px;
+}
+
+.footer {
+padding-top: 175px;
+padding-bottom: 100px;
+font-size: 15px;
+text-align: center;
+background-color: #212120;
+color: #FFF;
+}
+
+.fa-map-marker-alt, .fa-phone, .fa-envelope {
+font-size: 62px;
+color: white;
+}
+
+.circle {
+background: #3949ab;
+width: 100px;
+height: 100px;
+border-radius: 50%;
+display: flex;
+justify-content: center;
+align-items: center;
+margin: 0 auto 35px;
+}
+
+.circle + p {
+font-size: 20px;
+}
+
+.footer input, .footer textarea {
+padding: 30px;
+width: 100%;
+border-radius: 10px;
+border: none;
+font-size: 20px;
+text-trasform: uppercase;
+}
+
+.footer textarea {
+margin-top: 30px;
+margin-bottom: 30px;
+resize: none;
+}
+
+.footer button {
+padding: 20px 80px;
+color: #212121;
+font-size: 20px;
+border-radius: 10px;
+border: none;
+text-trasform: uppercase;
+transition: 0.3s;
+}
+
+.footer button:hover {
+opacity: 0.6;
+}
+
+.form {
+margin-top: 70px;
+}
+
+.rights {
+text-align: center;
+padding: 20px 0;
+font-weight: 600;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
